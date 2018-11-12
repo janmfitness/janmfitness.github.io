@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Moja spletna stran</h1>
+		<nav>
+				<ul>
+					<li><a href="index.html">Domov</a></li>
+					<li><a href="ponudba.html">Ponudba</a></li>
+					<li><a href="anketa.html">Anketa</a></li>
+					<li><a href="http://estudij.um.si">Vaje</a></li>
+				</ul>
+		</nav>
+	</header>
+
+	<div class="vsebina">
+		<div class="kartica">
+			<h2>Anketa</h2>
+			<form class="obrazec">
+				<label class="oznaka">Ime in priimek:</label><input type="text"/><br/>
+				<label class="oznaka">Kraj:</label><input type="text"/><br/>
+				<label class="oznaka">Elektronska pošta:</label><input type="text"/><br/>
+				<label class="oznaka">Tip vozila:</label>
+					<label class="radio-gumb" for="kombilimuzina"><input type="radio" name="tip" id="kombilimuzina">Kombilimuzina<span class="pika"></span></label>
+					<label class="radio-gumb" for="limuzina"><input type="radio" name="tip" id="limuzina">Limuzina<span class="pika"></span></label>
+					<label class="radio-gumb" for="enoprostorec"><input type="radio" name="tip" id="enoprostorec">Enoprostorec<span class="pika"></span></label>
+					<label class="radio-gumb" for="karavan"><input type="radio" name="tip" id="karavan">Karavan<span class="pika"></span></label>
+					<label class="radio-gumb" for="terenec"><input type="radio" name="tip" id="terenec">Terensko vozilo<span class="pika"></span></label>
+				<br/>
+				<label class="oznaka">Priljubljene znamke:</label>
+					<label class="checkbox-gumb" for="Audi"><input name="znamka" type="checkbox" id="Audi">Audi<span class="kljukica"></label>
+					<label class="checkbox-gumb" for="BMW"><input name="znamka" type="checkbox" id="BMW">BMW<span class="kljukica"></label>
+					<label class="checkbox-gumb" for="Ford"><input name="znamka" type="checkbox" id="Ford">Ford<span class="kljukica"></label>
+					<label class="checkbox-gumb" for="Honda"><input name="znamka" type="checkbox" id="Honda">Honda<span class="kljukica"></label>
+					<label class="checkbox-gumb" for="Mercedes"><input name="znamka" type="checkbox" id="Mercedes">Mercedes<span class="kljukica"></label>
+					<label class="checkbox-gumb" for="Renault"><input name="znamka" type="checkbox" id="Renault">Renault<span class="kljukica"></label>
+				<br/>
+				<label class="oznaka">Želje:</label><textarea></textarea><br/>
+				<input type="submit" value="Pošlji"/>
+			</form>
+		</div>
+	<div id="content">
+</body>
+</html>

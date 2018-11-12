@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+}
+body, html {
+	margin: 0px;
+	background-color: aqua;
+	font: 15px Helvetica;
+	padding-top: 50px;
+}
+header {
+    position: fixed;
+	width: 100%;
+	top: 0;
+}
+h1 {
+	background-color: yellow;
+	color: darkblue;
+	padding: 10px;
+	text-align: center;
+	margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+	
+}
+li a:hover {
+    background-color: yellow;
+    color: black;
+}
+article.vsebina {	
+	width: 100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.kartica {
+	background-color: gray;
+	margin: 1%;
+	width: 1000px;
+}
+.kartica img {
+	width: 100%;
+	margin: 0;
+}
+div.kartica figure {
+	margin: 0;
+}
+div.kartica figcaption {
+	text-align: center;
+}
+div.kartica video {
+	width: 100%;
+}
+div.kartica h2 {
+	margin: 10px;
+	background-color: gray;
+	color: darkblue;
+	text-align: center;
+}
+div.kartica.izdelek h3 {
+	padding: 10px;
+	margin: 0px;
+	height: 40px;
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+}
+div.kartica.izdelek img {
+	width: 100%;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+}
+div.kartica.izdelek {
+	width: 31%;
+	height: 400px;
+	float: right;
+}
+div.kartica.izdelek p {
+	margin: 0px;
+	padding: 5px;
+	font-size: 12px;
+	overflow-y: auto;
+	color: white; 
+    width: 100%;
+	height: 140px;
+}
+div.vsebina {
+	min-height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+label.oznaka {
+	display: inline-block;
+	width: 180px;
+}
+input[type=text] {
+	width: 100%;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	display: inline-block;
+	border: 2px solid darkblue;
+}
+input[type=text]:hover {
+	border-color: red;
+}
+textarea {
+	width: 100%;
+	height: 150px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-right: 20px;
+	padding-left: 20px;
+	resize: none;
+	border: 2px solid darkblue;
+}
+textarea:focus {
+	border-color: red;
+}
+input[type=submit] {
+	width: 100%;
+	padding: 16px;
+	margin-top: 10px;
+	border: 0px;
+	border-radius: 8px;
+	background-color: darkblue;
+	font-weight: bold;
+	color: gray;
+}
+input[type=submit]:hover {
+	cursor: pointer;
+	background-color: yellow;
+}
+@media (max-width: 600) {
+	.kartica {
+		margin: 0px;
+	}
+	.kartica.izdelek {
+		width: 100%;
+	}
+	li a {
+		width: 100%;
+	}
+	label.radio-gumb {
+		width: 100%;
+	}
+	label.checkbox-gumb {
+		width:100%;
+	}
+}
+
+	
